@@ -1,0 +1,8 @@
+package: github.com/copernet/genburn
+import:
+- package: github.com/btcsuite/btcutil
+- package: github.com/btcsuite/btcd
+  subpackages:
+  - chaincfg
+  - txscript
+- package: golang.org/x/crypto/ripemd160
